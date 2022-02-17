@@ -1,0 +1,5 @@
+package com.cognizant.twitterApp.data;
+
+public class UserData {
+
+}

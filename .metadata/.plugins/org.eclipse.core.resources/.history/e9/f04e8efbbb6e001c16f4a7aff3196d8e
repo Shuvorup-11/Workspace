@@ -1,0 +1,13 @@
+package com.cognizant.twitterApp.repository;
+
+import java.util.List;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.cognizant.twitterApp.model.Tweets;
+
+public interface TweetsRepository extends MongoRepository<Tweets, String>{
+	
+	List<Tweets> findAllByHandler();
+
+}
